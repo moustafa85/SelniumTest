@@ -40,6 +40,7 @@ public class Login extends PageBase
 		setTextElementText(txtPassword, password);
 		clickButton(btnLogin);
 		System.out.println("Add logger please");
+		System.out.println("Add logger please");
 	}
 
 }
