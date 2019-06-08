@@ -39,7 +39,7 @@ public class Login extends PageBase
 		setTextElementText(txtEmail, userName);
 		setTextElementText(txtPassword, password);
 		clickButton(btnLogin);
-		System.out.println("Add logger please");
+		System.out.println("Add logger please");//adding another comment
 		System.out.println("Add logger please");//adding a comment
 	}
 
