@@ -20,6 +20,7 @@ public class TestLogin extends TestBase
 		lgnObject.pressLogin();
 		driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
 		lgnObject.userLogin("mo@mo.com", "Password1");
+		// adding comment
 		
 	}
 
