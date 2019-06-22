@@ -1,0 +1,24 @@
+﻿[
+  {
+    "name": "Ignored tests", 
+    "matchedStatuses": ["skipped"] 
+  },
+  {
+    "name": "Infrastructure problems",
+    "matchedStatuses": [ "failed"],
+    "messageRegex": ".*"
+  },
+  {
+    "name": "Outdated tests",
+    "matchedStatuses": ["failed"],
+    "traceRegex": ".*" 
+  },
+  {
+    "name": "Product defects",
+    "matchedStatuses": ["failed"]
+  },
+  {
+    "name": "Test defects",
+    "matchedStatuses": ["failed"]
+  }
+]

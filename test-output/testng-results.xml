@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22098" started-at="2019-06-22T12:20:10Z" finished-at="2019-06-22T12:20:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22098" started-at="2019-06-22T12:20:10Z" finished-at="2019-06-22T12:20:32Z">
+      <class name="Demo.nopCommerce.com.TestLogin">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="startDriver" is-config="true" duration-ms="17299" started-at="2019-06-22T12:19:53Z" finished-at="2019-06-22T12:20:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="SKIP" signature="AccessRequests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="AccessRequests" duration-ms="6096" started-at="2019-06-22T12:20:12Z" description="الاختبارات" data-provider="RequestTypes" finished-at="2019-06-22T12:20:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestCaseID]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ProcessType]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CourtID]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Category]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[RequestTypeID]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[DocumentType]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[RequesterType]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[ApplicantType]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Respondent]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[TestData]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Testing Results]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessRequests -->
+        <test-method status="PASS" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="onTestFailure" is-config="true" duration-ms="4" started-at="2019-06-22T12:20:18Z" finished-at="2019-06-22T12:20:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccessRequests status=SKIP method=TestLogin.AccessRequests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+        <test-method status="PASS" signature="AccessRequests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="AccessRequests" duration-ms="6088" started-at="2019-06-22T12:20:19Z" description="الاختبارات" data-provider="RequestTypes" finished-at="2019-06-22T12:20:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[تقديم طلبات]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[محكمة التنفيذ بالرياض]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[مالى]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[أوراق تجارية]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[سند لأمر]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مواطن]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[أصالة عن نفسه]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[شركة تجارية]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dummy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessRequests -->
+        <test-method status="PASS" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="onTestFailure" is-config="true" duration-ms="1" started-at="2019-06-22T12:20:25Z" finished-at="2019-06-22T12:20:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccessRequests status=SUCCESS method=TestLogin.AccessRequests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+        <test-method status="PASS" signature="AccessRequests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="AccessRequests" duration-ms="4216" started-at="2019-06-22T12:20:25Z" description="الاختبارات" data-provider="RequestTypes" finished-at="2019-06-22T12:20:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[تقديم طلبات]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[محكمة التنفيذ بجدة]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[مالى]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[أوراق تجارية]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[شيك]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مواطن]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[أصالة عن نفسه]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[شركة تجارية]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dummy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Fail]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessRequests -->
+        <test-method status="PASS" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="onTestFailure" is-config="true" duration-ms="1" started-at="2019-06-22T12:20:29Z" finished-at="2019-06-22T12:20:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccessRequests status=SUCCESS method=TestLogin.AccessRequests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+        <test-method status="PASS" signature="AccessRequests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="AccessRequests" duration-ms="3544" started-at="2019-06-22T12:20:29Z" description="الاختبارات" data-provider="RequestTypes" finished-at="2019-06-22T12:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[تقديم طلبات]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[محكمة التنفيذ بجدة]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[مالى]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[احكام و قرارات]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ الاحكام والقرارات الصادرة من اللجان شبه القضائية]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[مواطن]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[أصالة عن نفسه]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[شركة تجارية]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Dummy]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[Pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccessRequests -->
+        <test-method status="PASS" signature="onTestFailure(org.testng.ITestResult)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="onTestFailure" is-config="true" duration-ms="1" started-at="2019-06-22T12:20:32Z" finished-at="2019-06-22T12:20:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccessRequests status=SUCCESS method=TestLogin.AccessRequests(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- onTestFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:Demo.nopCommerce.com.TestLogin@2bffa76d]" name="stopDriver" is-config="true" duration-ms="876" started-at="2019-06-22T12:20:33Z" finished-at="2019-06-22T12:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- Demo.nopCommerce.com.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
