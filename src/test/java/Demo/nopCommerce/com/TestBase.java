@@ -85,7 +85,9 @@ public class TestBase
 	public byte[] saveFailureScreenShot(WebDriver idriver) 
 	{
 		System.out.println("Taking a screenshot");
+		System.out.println("Hello");
 		return ((TakesScreenshot)idriver).getScreenshotAs(OutputType.BYTES);
+		
 	}
 
 	public static void captureScreenshot(WebDriver driver , String screenshotname) 
