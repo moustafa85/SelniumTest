@@ -86,6 +86,7 @@ public class TestBase
 	{
 		System.out.println("Taking a screenshot");
 		System.out.println("Hello");
+		System.out.println("Hello");
 		return ((TakesScreenshot)idriver).getScreenshotAs(OutputType.BYTES);
 		
 	}
