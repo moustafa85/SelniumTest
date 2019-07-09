@@ -55,12 +55,18 @@ public class TestBase
 			System.out.println(""+System.getProperty("user.dir")+"\\Resources\\chromedriver.exe");
 			driver = new ChromeDriver(chromeOption()); 
 		}
-
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
-		URL = "https://demo.nopcommerce.com/";
-		//URL = "https://www.google.com";
-		driver.navigate().to(URL);
+		try
+		{
+			driver.manage().window().maximize();
+			driver.manage().timeouts().implicitlyWait(120, TimeUnit.SECONDS);
+			URL = LoadProperties.propObject.getProperty("BaseURL"); //"https://demo.nopcommerce.com/";
+			//URL = "https://www.google.com";
+			System.out.println(URL);
+			driver.navigate().to(URL);
+		}catch(Exception erro)
+		{
+			erro.printStackTrace();
+		}
 	}
 
 	@AfterSuite
@@ -72,7 +78,7 @@ public class TestBase
 	@AfterMethod
 	public void onTestFailure(ITestResult result) 
 	{
-		
+
 		if(result.getStatus()==ITestResult.FAILURE)
 		{
 			System.out.println("*** Test execution " + result.getMethod().getMethodName() + " failed...");
@@ -88,7 +94,7 @@ public class TestBase
 		System.out.println("Hello");
 		System.out.println("Hello");
 		return ((TakesScreenshot)idriver).getScreenshotAs(OutputType.BYTES);
-		
+
 	}
 
 	public static void captureScreenshot(WebDriver driver , String screenshotname) 
